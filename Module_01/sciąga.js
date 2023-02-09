@@ -1,5 +1,6 @@
 //&& = And 
-//var = variable
+//var = variable naam allen geldig is binnen function waar je het doet
+//let = allen bestaat binnen het code dus bijvoorbleeld for loop
 // index ++; = index = index +1
 //var list = [2,5,7,2,3]
 
@@ -18,7 +19,7 @@
 
 //for (index = 0; index < list.length; index++){oude manier voor index in list (zo lang als index kleinder is dan lengte van list word deze uitgewoerd)(index++ gaat met 1 steeds om hoog)
     // element = list[index];
-    //console.log(element); print
+    //console.log(element); =  print
     //}
 
 
