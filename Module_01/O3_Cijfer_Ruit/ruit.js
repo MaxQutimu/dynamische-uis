@@ -1,20 +1,20 @@
 function diamond(number) {
     line='';
-    for(i=1;i<=number;i++) {
-        for(j=1;j<=i;j++) {
-            if(j == 1)
-                line +='<br>'+ j;
-            else
-                line+='-'+j;
+    for(aantal=1;aantal<=number;aantal++) {
+        for(nummer=1;nummer<=aantal;nummer++) {
+            if(nummer == 1){
+                line +='<br>'+ nummer;}
+            else{
+                line+='-'+nummer;}
             }
             
             }
-    for(i=number-1;i>=1;i--) {
-        for(j=1;j<=i;j++) {
-            if(j == 1)
-                line +='<br>'+ j;
-            else
-                line+='-'+j;
+    for(aantal=number-1;aantal>=1;aantal--) {
+        for(nummer=1;nummer<=aantal;nummer++) {
+            if(nummer == 1){
+                line +='<br>'+ nummer;}
+            else{
+                line+='-'+nummer;}
             }
     }
     document.getElementById('result').innerHTML=line;
