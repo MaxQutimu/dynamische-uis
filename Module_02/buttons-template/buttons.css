@@ -1,0 +1,36 @@
+#container{
+    height: 600px;
+    width: 600px;
+    align-content: center;
+    border: solid 1px black;
+}
+.nummer0{
+    background-image: url(images/0.jpg), url(images/bg0.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left;
+    background-size: 30%, 90%;
+}
+.nummer1{
+    background-image: url(images/1.jpg), url(images/bg1.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left;
+    background-size: 30%, 90%;
+}
+.nummer2{
+    background-image: url(images/2.jpg), url(images/bg2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left;
+    background-size: 30%, 90%;
+}
+.nummer3{
+    background-image: url(images/3.jpg), url(images/bg3.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left;
+    background-size: 30%, 90%;
+}
+.buttongreen{
+    background-color: green;
+}
+input:disabled{
+    background-color: red;
+}
