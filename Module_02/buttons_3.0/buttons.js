@@ -20,14 +20,17 @@ function CreateButton(amount){
         }
   }}
 function BtnClicked(clicked_id){
-    BtnId = clicked_id
-    console.log(BtnId)
-    if (BtnId.classList.contains("ButtonClass0")){
-        console.log("it works")
-    // this.classList.replace("ButtonClass0","ButtonClass1");
-    }
-    else{
-        console.log("nope")
+    var BtnId = document.getElementById(clicked_id);
+    if(BtnId.classList.contains("ButtonClass0")){
+        BtnId.classList.replace("ButtonClass0","ButtonClass1");}
+    else if (BtnId.classList.contains("ButtonClass1")){
+        BtnId.classList.replace("ButtonClass1","ButtonClass2");}
+    else if (BtnId.classList.contains("ButtonClass2")){
+        BtnId.classList.replace("ButtonClass2","ButtonClass3");}
+    else if (BtnId.classList.contains("ButtonClass3")){
+        BtnId.classList.replace("ButtonClass3","ButtonClass4");}
+    else if (BtnId.classList.contains("ButtonClass4")){
+        BtnId.remove();
     }
 }
 
